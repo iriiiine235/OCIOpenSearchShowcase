@@ -122,7 +122,7 @@ window.FIXTURES = {
       "initialState": "Shard 0 has a primary in domain 1 and an in-sync replica in domain 2. Three separate leaders manage cluster state.",
       "finalState": "Illustrated application retries reach data node B. Validate real client behavior and restore missing replica coverage.",
       "presentation": "staged",
-      "flowCaption": "Illustrative sequence only. Playback speed is not a recovery-time estimate; no live traffic or failure is generated."
+      "flowCaption": "Illustrative sequence only."
     }
   },
   "recovery": {
