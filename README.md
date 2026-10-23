@@ -2,8 +2,6 @@
 
 Explore how OCI Search with OpenSearch supports search, application-log investigation, and security analytics. This interactive showcase combines architecture illustrations, practical use cases, and screenshots with links to official documentation.
 
-# 
-
 ## Capabilities covered
 
 - **Overview:** Service architecture and customer journeys.
@@ -30,20 +28,6 @@ python -m http.server 8000 --bind 127.0.0.1
 Then open [localhost:8000](http://127.0.0.1:8000/). On systems where Python 3 is named `python3`, use that command instead.
 
 Use the sidebar or mobile menu to explore. Staged illustrations have local playback controls; reduced-motion preferences are supported. Select a screenshot to enlarge it, and press Escape to close it.
-
-## Implementation
-
-| Files                                                         | Responsibility                                                                          |
-| ------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| `index.html`                                                  | Page shell and local asset loading                                                      |
-| `styles.css`, `service.css`                                   | Shared visual style, responsive layout, and service-specific presentation               |
-| `app.js`, `service.js`                                        | Navigation, page rendering, contextual help, service content, and official source links |
-| `fixtures.js`, `pipeline-fixtures.js`, `response-fixtures.js` | Illustrative stories, connector examples, and sample responses                          |
-| `visuals.js`, `presentation.js`                               | Architecture diagrams and shared presentation behavior                                  |
-| `modules/`                                                    | Independent page and workload renderers, staged playback, and screenshot viewing        |
-| `assets/screenshots/`                                         | Redacted screenshots, display metadata, and OpenSearch image license/notice             |
-| `lucide.min.js`, `LUCIDE-LICENSE`                             | Bundled icons and their license                                                         |
-| `.nojekyll`                                                   | Keeps GitHub Pages serving the bundled static files without Jekyll processing           |
 
 ## Illustrative examples
 
